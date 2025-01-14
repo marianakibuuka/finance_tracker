@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+  }
+   /* Navbar styles */
+   header {
+    background-color:#cccccc;
+    color: black;
+    padding: 20px;
+  
+  }
+  #logo {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 80%;
+}
+  .Fnav-links{
+    display: flex;
+    justify-content: space-around;
+    
+    }
+  
+  .Fnavbar-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    
+}
+  .Flogo img{
+    
+    width: 230px;
+    height: 60px;
+  }
+
+  
+  .Fnav-links li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .Fnav-links li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .Flogin-button {
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 4px;
+  }
+
+  /* section */
+  .Feedack-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 20px 20px 20px;
+
+  }
+  .fcontent
+  {
+    width: 800px;
+    height: 650px;
+    text-align: center;
+    
+  }
+  #uiimage{
+    width: 82%;
+   
+  }
+
+  #feedback {
+    width: 500px;
+    height: 650px;
+  padding: 100px;
+ 
+  }
+  
+  #feedback p{
+
+    font-size: 70px;
+    color: #007bff;
+
+  }
+
+  .input{
+    width: 250px;
+    height: 30px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+  }
+  #message{
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 5px;
+  }
+  .Fcta-button {
+    text-decoration: none;
+    color: whitesmoke;
+    background-color :#007bff ;
+    padding: 10px 20px;
+    border-radius: 4px;
+    width: 320px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+/* footer */
+#Ffooter
+{
+    background-color:#cccccc;
+padding: 20px;
+text-align: center;
+color: black;
+
+
+}

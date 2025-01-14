@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense Page</title>
+   
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    /> 
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../Images/Favicon.png">
+    
+    <link rel="stylesheet" href="expense.css" />
+  </head>
+  <body>
+    <div class="left-side">
+      <div class="wrapper">
+        <div id="mySidebar" style="display: none;" class="side-bar">
+          <button onclick="sidebar_close()" class="close-btn">&times;</button>
+          <div class="profile">
+            <img src="../Images/Profile.png" alt="Profile-Picture">
+            <h3 id="username"></h3>
+          </div>
+          <div class="nav-bar">
+            <a href="../Dashboard/Dashboard.html">
+              <span class="icon"><i class="fas fa-home"></i></span>
+              <span class="nav-item">Dashboard</span>
+            </a>
+            <a href="../View Transaction/transcation.html">
+              <span class="icon"><i class="fa fa-money"></i></span>
+              <span class="nav-item">Transactions</span>
+            </a>
+            <a href="../Income Page/income.html">
+              <span class="icon"><i class="fa fa-dollar"></i></span>
+              <span class="nav-item">Income</span>
+            </a>
+            <a href="../Expense Page/expense.html">
+              <span class="icon"><i class="fa fa-credit-card"></i></span>
+              <span class="nav-item">Expenses</span>
+            </a>
+            <a href="../Landing Page/about.html">
+              <span class="icon"><i class="fa fa-address-card"></i></span>
+               <span class="nav-item">About</span>  
+           </a>
+
+
+          </div>
+          <div class="logout">
+            <a href="../Landing Page/index.html">Logout</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-nav-bar">
+      <button class="side-bar-btn" onclick="sidebar_open()">☰</button>
+      <div class="nav-bar-container">
+        <img id="logo" src="../Images/logo.png" alt="Logo">
+      </div>
+    </div>
+  
+
+      
+    
+  </div>
+    <div class="wrap">
+
+      <div class="container">
+        <div class="sub-container">
+          
+          
+          <div class="user-amount-container">
+            <h3>Enter Expenses</h3>
+            <p class="hide error" id="product-title-error">
+              Values cannot be empty
+            </p>
+            <input
+              type="text"
+              class="product-title"
+              id="product-title"
+              placeholder="Enter Title of Product"
+            />
+            <input
+              type="number"
+              id="user-amount"
+              placeholder="Enter Cost of Product"
+            />
+            <input
+            type="date"
+            id="user-amount"
+            placeholder="Enter Date"
+          />
+          <input
+          type="text"
+          id="product-title"
+          placeholder="Add a reference"
+        />
+
+            <button class="submit" id="add-expenses">Add</button>
+          </div>
+        </div>
+       
+        <div class="output-container flex-space">
+            <div class="totalExpenses">
+                <p>Total Expense For Today</p>
+                <span id="expenditure-value">0</span>
+            </div>
+            
+          
+        </div>
+      </div>
+     
+      <div class="list">
+        <h3>Expense</h3>
+        <div class="list-container" id="list"></div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2fca3fb1b0.js"></script>
+    <script src="expense.js"></script>
+  </body>
+</html>

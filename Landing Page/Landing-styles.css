@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+ /* Navbar styles */
+ header {
+  background-color:#cccccc;
+  color: black;
+  padding: 20px;
+
+}
+.nav-links{
+  display: flex;
+  justify-content: space-around;
+  
+  }
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 40px;
+  
+}
+.logo img{
+  width: 12rem;
+  height: 4rem;
+}
+
+
+.nav-links li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: black;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5px;
+}
+
+.nav-links li a:hover{
+  border-bottom: 2px solid #007bff;
+  border-left: 1px solid #007bff;
+  border-right: 1px solid #007bff;
+  border-top: none;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  
+}
+
+.login-button {
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+  /* section */
+  #Container
+  { 
+    display: flex;
+    justify-content: space-around;
+    margin-bottom:50px ;
+
+
+  }
+  .content
+  { width: 700px;
+    height: 700px;
+  
+   padding: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+    
+  }
+.slogan{
+   margin-bottom: 40px;
+    color: black;
+    font-size: 25px;
+ 
+    
+  }
+  .maintext
+  {
+   
+    font-size: 60px;
+    font-weight: bolder;
+    color: #007bff;
+   
+   margin-bottom: 40px;
+
+  }
+  
+
+  .contentimage
+  { width: 700px;
+    height: 700px;
+    text-align: center;
+    padding: 30px;
+
+    
+  }
+  #landingImage{
+    width: 110%;
+  }
+  .btn{
+    font-size: 20px;
+  }
+  .cta-button {
+    text-decoration: none;
+    color: black;
+    background-color: #cccccc;
+    padding: 10px 20px;
+    border-radius: 4px;
+ 
+   
+  }
+
+  /* footer */
+  #footer
+  {  
+      background-color:#cccccc;
+  padding: 20px;
+  text-align: center;
+  color: black;
+  
+  }
+  #logo {
+    width: 200px;
+    height: 150px;
+    border: none;
+    border-radius: 80%;
+}
+  
+  
+ 

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="signup-styles.css">
+    <link rel="icon" type="image/x-icon" href="../Images/Favicon.png">
+</head>
+
+<body>
+    <div class="left-side">
+        <header>
+            <img id="logo" src="../Images/logo.png" alt="EcoFyn logo">
+        </header>
+        <main>
+            <div class="signup">
+                <div class="signup-head">
+                    <h2>Create A New Account</h2>
+                </div>
+                <div class="signup-form">
+                    <div class="full-name">
+                        <input type="text" placeholder="First Name" id="firstname" required>
+                        <input type="text" placeholder="Last Name" id="lastname" required>
+                    </div>
+                    <div class="details">
+                        <input type="text" placeholder="Email" id="email" required>
+                        <input type="password" placeholder="Create Password" id="createpw" required>
+                        <input type="password" placeholder="Confirm Password" id="confmpw" required>
+                        <input id="rgstr_btn" type="submit" value="SignUp" onclick="register()"><a href="../login page/login-page.html"></a></input>
+                    </div>
+                </div>
+                <hr>
+                <div class="signup-options">
+                    <p>Login using social networks</p><br>
+                    <div class="signup-links">
+                        <a href="../Dashboard/Dashboard.html"><img src="../Images/download.png"></a>
+                        <a href="../Dashboard/Dashboard.html"><img src="../Images/git hbu logo.png"></a>
+                        <a href="../Dashboard/Dashboard.html"><img src="../Images/linkedin logo.png"></a>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="right-side">
+        <main>
+            <h1>Already Have An Account</h1>
+            <p>Login here and use our personal finance tracker with new opportunities!!</p>
+            <a href="../login page/login-page.html"><button>Login</button></a>
+        </main>
+    </div>
+    <script src="signup-script.js"></script>
+</body>
+</html>

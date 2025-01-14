@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Dashnborad.css">
+  <title>EcoFyn</title>
+  <link rel="icon" type="image/x-icon" href="../Images/Favicon.png">
+</head>
+
+<body>
+  <div class="left-side">
+    <div class="wrapper">
+      <div id="mySidebar" style="display: none;" class="side-bar">
+        <button onclick="sidebar_close()" class="close-btn">&times;</button>
+        <div class="profile">
+          <img src="../Images/Profile.png" alt="Profile-Picture">
+          <h3 id="username"></h3>
+        </div>
+        <div class="nav-bar">
+          <a href="../Dashboard/Dashboard.html">
+            <span class="icon"><i class="fas fa-home"></i></span>
+            <span class="nav-item">Dashboard</span>
+          </a>
+          <a href="../View Transaction/transcation.html">
+            <span class="icon"><i class="fa fa-money"></i></span>
+            <span class="nav-item">Transactions</span>
+          </a>
+          <a href="../Income Page/income.html">
+            <span class="icon"><i class="fa fa-dollar"></i></span>
+            <span class="nav-item">Income</span>
+          </a>
+          <a href="../Expense Page/expense.html">
+            <span class="icon"><i class="fa fa-credit-card"></i></span>
+            <span class="nav-item">Expenses</span>
+          </a>  
+
+         <a href="../Landing Page/about.html">
+             <span class="icon"><i class="fa fa-address-card"></i></span>
+              <span class="nav-item">About</span>  
+          </a>
+
+        </div>
+        <div class="logout">
+          <a href="../Landing Page/index.html">Logout</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="top-nav-bar">
+    <button class="side-bar-btn" onclick="sidebar_open()">☰</button>
+    <div class="nav-bar-container">
+      <img id="logo" src="../Images/logo.png" alt="Logo">
+    </div>
+  </div>
+
+  <div class="right-side">
+    <div class="middle">
+      <div id="chart"></div>
+      <div class="salary">
+        <div class="max-salary">
+          <span>
+            <h4>Min(Rs.)</h4>
+          </span>
+          <span>
+            <h3>Salary</h3>
+          </span>
+          <span>
+            <h4>Max(Rs.)</h4>
+          </span>
+        </div>
+        <div class="min-salary">
+          <span>
+            <h3 id="minS"></h3>
+          </span>
+          <span>
+            <h3 id="maxS"></h3>
+          </span>
+        </div>
+      </div>
+      <div class="salary">
+        <div class="max-salary">
+          <span>
+            <h4>Min(Rs.)</h4>
+          </span>
+          <span>
+            <h3>Expense</h3>
+          </span>
+          <span>
+            <h4>Max(Rs.)</h4>
+          </span>
+        </div>
+        <div class="min-salary">
+          <span>
+            <h3 id="minE"></h3>
+          </span>
+          <span>
+            <h3 id="maxE"></h3>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="account">
+      <div class="account-details">
+        <div class="detail-1">
+          <h4>Net Balance : Rs.</h4>
+          <h2 id="net-balance"></h2>
+        </div>
+        <div class="detail-1">
+          <h4>Total Income : Rs.</h4>
+          <h2 id="net-income"></h2>
+        </div>
+        <div class="detail-1">
+          <h4>Total Expense : Rs.</h4>
+          <h2 id="net-expense"></h2>
+        </div>
+      </div>
+      <div class="history">
+        <h2>Recent Transactions</h2>
+        <ul id="transaction-list">
+        </ul>
+        <a href="../View Transaction/transcation.html">View All Transactions</a>
+      </div>
+    </div>
+  </div>
+
+
+
+</body>
+<script src="https://code.jscharting.com/2.9.0/jscharting.js"></script>
+<script src="Dashboard-script.js"></script>
+<script src="https://kit.fontawesome.com/2fca3fb1b0.js" crossorigin="anonymous"></script>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <header>
+  <h1>Personal Finance Tracker</h1>
+  <h2>Current Balance: <span id="balance">0.00</span></h2>
+</header>
+</section>
+<form id="transaction-form">
+  <input type="text" id="description" placeholder="Description" required>
+  <input type="number" id="amount" placeholder="Amount" required>
+  <select id="type" required>
+    <option value="income">Income</option>
+    <option value="expense">Expense</option>
+  </select>
+  <button type="submit">Add Transaction</button>
+</form>
+
+<ul id="transaction-list"></ul>
+
+<script src="script.js"></script> -->
