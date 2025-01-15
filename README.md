@@ -1,6 +1,6 @@
 # Project Name 
 
- ## Ecofyn
+ ## EcoFyn
 
 <img width ="200px" src="https://github.com/marianakibuuka/finance_tracker/blob/main/Images/logo.png">
 
