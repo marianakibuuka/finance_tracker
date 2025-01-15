@@ -15,7 +15,7 @@
 
 > ✨ABOUT 
 
-⭕Fintrack ,is an online platform that allows users to manage their finances effectively.
+⭕EcoFyn ,is an online platform that allows users to manage their finances effectively.
 
 ⭕The project typically includes designing and implementing features that enables users to track their incomes, expenses and prominent financial health.
 
