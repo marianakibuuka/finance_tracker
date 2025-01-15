@@ -2,7 +2,7 @@
 
  ## EcoFyn
 
-<img width ="200px" src="https://github.com/marianakibuuka/finance_tracker/blob/main/Images/logo.png">
+<img width ="200px" src="https://drive.google.com/file/d/1jFF1pidPiqU-ktCUJ3HrImnedm5zFqeb/view?usp=drivesdk">
 
 <br> 
 
