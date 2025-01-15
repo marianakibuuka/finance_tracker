@@ -78,10 +78,6 @@ graph TD;
 
 ```
 
----
-## Screenshots 📷
----
-
 # Home Page
 ![Home](https://imgur.com/nOlxDYU.png)
 
