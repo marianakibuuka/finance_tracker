@@ -1,6 +1,6 @@
 # Project Name 
 
- ## Fintrack
+ ## Ecofyn
 
 <img width ="200px" src="https://imgur.com/M5sTr8r.png">
 
