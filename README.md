@@ -24,29 +24,6 @@
 
 
 
----
-
-
-## 🔗 Collaborators Profile Links✨
-
-
-
-| Collaborators | Github                                                                                                                                   | Linkedin |                                                                                                                                    |
-| ------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
-| Raj Gupta  (Member 1)| [![github](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/code-raj11903)| [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rajgupta2003/) | 
-|Somil Rathore (Member 2) | [![github](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/SomilRathore01) | [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/somil-rathore-2762bb247) |
-| Mayank Digarse (Member 3) | [![github](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Mayank-Digarse) |[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mayank-digarse-588345223) |
-| Neha Tomar (Member 4)| [![github](https://img.shields.io/badge/github-1DA1F2?style=for-the-badge&logo=github&logoColor=white)](#) |[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](#) | 
-
-
-<br>
-
-💻 Project logo:- 
-
-
-<img width="300px" alt="Logo" src="https://imgur.com/TgpEhvY.png">
-
-
 
 
 
